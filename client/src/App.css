@@ -1,3 +1,8 @@
+body{
+  /* background-image: url('./source/background.png') */
+  background-image: linear-gradient(#473253, #243e5f);
+  min-height: 100vh;
+}
 .App {
   text-align: center;
 }
@@ -8,7 +13,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -17,9 +22,17 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.mountingContainer{
+  width: 270px;
+  padding: 5px;
+}
 
 .App-link {
   color: #61dafb;
+}
+.lcElement{
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @keyframes App-logo-spin {
