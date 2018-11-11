@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import 'antd/dist/antd.css'
 import './App.css';
-import MenuLeft from './componets/Menu'
+import MenuLeft from './componets/menu/Menu';
 
 class App extends Component {
   render() {
