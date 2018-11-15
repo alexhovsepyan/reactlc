@@ -1,0 +1,22 @@
+.homeWrapper{
+  margin: 30% 50px;
+}
+.homeDescription{
+    color: #8d8d8d;
+}
+.standardButton{
+    border: 1px solid #08fdd8;
+    background-color: #fff0;
+    padding: 8px 16px;
+    border-radius: 3px;
+    color: #08fdd8; 
+    cursor: pointer;
+    transition: all 0.3 ease-in-out;
+    font-size: 14px;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.standardButton:hover{
+    color: #252627;
+    background-color: #08fdd8;
+}
