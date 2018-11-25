@@ -9,6 +9,36 @@
   color: #08fdd8;
 }
 
+.word-box{
+  opacity: 0;
+  animation: animationWordBox 0.3s ease-in 1 forwards;
+}
+
+.buttonAnimation{
+  opacity: 0;
+  animation: buttonAnimation 0.4 ease-in-out  forwards;
+}
+
+@keyframes animationWordBox {
+  0%{
+    opacity: 0;
+    transform: translateY(10%)
+  }
+  100%{
+    opacity: 1;
+    transform: translate(0)
+  }
+}
+
+@keyframes buttonAnimation{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
 @keyframes textAnimation {
   0% {
     -webkit-transform: scale3d(1, 1, 1);

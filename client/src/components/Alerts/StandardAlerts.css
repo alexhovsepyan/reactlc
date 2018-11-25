@@ -1,0 +1,58 @@
+.alertBox{
+    position: absolute;
+    top: 0;
+    width: 80%;
+    min-height: 50px;
+    max-width: 510px;
+    min-width: 250px;
+    opacity: 0;
+    animation: alertBoxAn 0.8s ease-out  1 forwards;
+    border-radius: 3px;
+}
+.alert-error{
+    background-color: brown;  
+}
+
+.alert-success{
+    background-color: #60d376;
+}
+
+.alert-waiting{
+    background-color: #141818;
+}
+.alert-top{
+    top: 0;
+}
+.alert-bottom{
+    bottom: 0;
+}
+
+ 
+.alert-success-icon, .alert-text, .alert-close, .alert-error-icon, .alert-waiting-icon{
+    color: #fff;
+    font-size: 20px;
+}
+.alert-close{
+    cursor: pointer;
+}
+.alert-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 12.5px 0 0 12.5px;
+    
+}
+@keyframes alertBoxAn {
+    0%{
+        position: absolute;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+    100%{
+        position: absolute;
+        transform: translateY(10%);
+        opacity: 1; 
+    }
+}
+
