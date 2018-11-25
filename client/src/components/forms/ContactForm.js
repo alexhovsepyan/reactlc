@@ -66,4 +66,4 @@ class ContactForm extends Component {
   }
 }
 
-export default connect(state => ({}), {sendMessageSage, messageSlip})(ContactForm)
+export default connect(state => ({ contactReducer: state.contactReducer}), {sendMessageSage, messageSlip})(ContactForm)
