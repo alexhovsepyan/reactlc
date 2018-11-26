@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ContactForm from "../components/forms/ContactForm";
-import StandardAlerts from "../components/Alerts/StandardAlerts";
 import AlertController from '../components/Alerts/AlertController'
 import "./Styles/contact.css";
 

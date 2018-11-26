@@ -50,7 +50,7 @@ export default class ListElem extends Component {
       >
         <li style={{ marginTop: "10px" }}>
           <div ref={this.animIcon}>{children && children}</div>
-          <span style={styles.name} ref={this.animElem}>
+          <span ref={this.animElem} className='navLink-active-span'>
             {name}
           </span>
         </li>
@@ -59,15 +59,15 @@ export default class ListElem extends Component {
   }
 }
 
-const styles = {
-  name: {
-    fontSize: "11px",
-    color: "#08fdd8",
-    position: "absolute",
-    textAlign: "center",
-    display: "block",
-    marginTop: -24,
-    width: 50,
-    opacity: 0
-  }
-};
+// const styles = {
+//   name: {
+//     fontSize: "11px",
+//     color: "#08fdd8",
+//     position: "absolute",
+//     textAlign: "center",
+//     display: "block",
+//     marginTop: -24,
+//     width: 50,
+//     opacity: 0
+//   }
+// };

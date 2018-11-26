@@ -40,8 +40,4 @@ export default class StandardAlerts extends Component {
   
 }
 
-const styles = {
-    box: {
-        position: 'absolute',
-    }
-}
+
