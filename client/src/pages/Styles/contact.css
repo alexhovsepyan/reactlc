@@ -1,0 +1,36 @@
+.contactBox{
+    padding: 20% 0 0 10%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+}
+.contactBoxTitle{
+    color: #08fdd8;
+    font-size: 50px;
+    display: inline-block;
+    font-weight: bolder;
+}
+.contactDesc{
+    color: azure;
+    font-family: Open Sans, sans-serif;
+    font-weight: 300;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5% 5% 0 0;
+}
+.contactForm input, button {
+    margin: 1%;
+    min-width: 300px;
+    max-width: 500px;
+    height: 50px;
+    
+}
+.contactForm textarea {
+    margin: 1%;
+    max-width: 500px;
+    min-height: 80px;
+}

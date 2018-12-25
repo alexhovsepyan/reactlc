@@ -10,7 +10,7 @@ export default class Logo extends Component {
   render() {
     return (
         <Link to='/'>
-             <div className="left-menu_header" onMouseEnter={this.handleAnimation}>
+             <div className="left-menu_header">
         <h1 className="left-menu_logo" ref={this.logo}>
           V
         </h1>

@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
 import "./App.css";
+
+// left menu 
 import MenuLeft from "./components/menu/Menu";
 
-// pages
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contacts from "./pages/Contacts";
-import MyWork from "./pages/MyWork";
-import Skills from "./pages/Skills";
+// Root router
+import MainRoot from './MainRoot'
+
 
 class App extends Component {
   render() {
@@ -16,13 +14,7 @@ class App extends Component {
       <div className="wrap">
         <MenuLeft />
         <div>
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/about" exact component={About} />
-            <Route path="/contact" exact component={Contacts} />
-            <Route path="/mywork" exact component={MyWork} />
-            <Route path="/skills" exact component={Skills} />
-          </Switch>
+          <MainRoot />
         </div>
       </div>
     );

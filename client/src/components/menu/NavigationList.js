@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { FaHome, FaUserSecret, FaEnvelope } from "react-icons/fa";
-import { TiCogOutline, TiEye } from "react-icons/ti";
+import { FaEnvelope } from "react-icons/fa";
+import { IoIosPerson, IoIosCog, IoIosHome, IoIosEye } from 'react-icons/io'
 import ListElem from "./ListElem";
 
 export default class NavigationList extends Component {
@@ -15,7 +15,7 @@ export default class NavigationList extends Component {
             activeClassName="left-menu_content__elem_active"
             name="Home"
           >
-            <FaHome />
+            <IoIosHome />
           </ListElem>
           {/* about Link */}
           <ListElem
@@ -24,7 +24,7 @@ export default class NavigationList extends Component {
             activeClassName="left-menu_content__elem_active"
             name="About"
           >
-            <FaUserSecret />
+            <IoIosPerson />
           </ListElem>
           {/* skills Link */}
           <ListElem
@@ -33,16 +33,16 @@ export default class NavigationList extends Component {
             activeClassName="left-menu_content__elem_active"
             name="Skills"
           >
-            <TiCogOutline />
+            <IoIosCog />
           </ListElem>
           {/* my works Link */}
           <ListElem
             to="/mywork"
             className="left-menu_content__elem"
             activeClassName="left-menu_content__elem_active"
-            name="My Works"
+            name="Works"
           >
-            <TiEye />
+            <IoIosEye />
           </ListElem>
           {/* contact Link */}
           <ListElem
